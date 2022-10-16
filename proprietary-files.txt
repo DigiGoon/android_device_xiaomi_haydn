@@ -107,6 +107,7 @@ vendor/lib/libsndmonitor.so
 vendor/lib/libssrec.so
 
 # Camera
+system/lib64/libion.so:vendor/lib64/libion.so
 vendor/lib/libcamxexternalformatutils.so
 vendor/lib/libcamxfacialfeatures.so
 vendor/lib/libcamxfdalgo.so
