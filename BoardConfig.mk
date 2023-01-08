@@ -35,3 +35,6 @@ SOONG_CONFIG_xiaomiSm8350Vars_vibrator_use_effect_stream := true
 
 # Include proprietary files
 include vendor/xiaomi/haydn/BoardConfigVendor.mk
+
+# Include Firmware
+include vendor/xiaomi/haydn-firmware/BoardConfigVendor.mk
