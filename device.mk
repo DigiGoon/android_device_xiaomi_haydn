@@ -46,3 +46,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/haydn/haydn-vendor.mk)
+
+# Call the MiuiCamera setup
+$(call inherit-product, vendor/xiaomi/haydn-miuicamera/products/miuicamera.mk)
