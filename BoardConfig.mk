@@ -38,3 +38,6 @@ include vendor/xiaomi/haydn/BoardConfigVendor.mk
 
 # Include Firmware
 include vendor/xiaomi/haydn-firmware/BoardConfigVendor.mk
+
+# Inherit from proprietary files for miuicamera
+include vendor/xiaomi/haydn-miuicamera/products/board.mk
