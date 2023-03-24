@@ -1,0 +1,14 @@
+[
+  {
+    "repository" : "DigiGoon/android_device_xiaomi_sm8350-common",
+    "target_path": "device/xiaomi/sm8350-common",
+    "remote"     : "github",
+    "branch"     : "superior-13"
+  },
+  {
+   "repository"  : "vendor_xiaomi_haydn-firmware",
+   "target_path" : "vendor/xiaomi/haydn-firmware",
+   "remote"      : "pixel-devices-blobs",
+   "branch"      : "thirteen"
+  }
+]
