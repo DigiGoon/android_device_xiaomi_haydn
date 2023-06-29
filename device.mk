@@ -50,3 +50,7 @@ $(call inherit-product, vendor/xiaomi/haydn/haydn-vendor.mk)
 
 # Call the MiuiCamera setup
 $(call inherit-product-if-exists, vendor/xiaomi/haydn-miuicamera/products/miuicamera.mk)
+
+# Dolby Config File
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/dolby/config/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
