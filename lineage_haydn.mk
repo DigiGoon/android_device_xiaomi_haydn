@@ -31,3 +31,24 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := Xiaomi/haydn_global/haydn:13/TKQ1.220829.002/V14.0.3.0.TKKMIXM:user/release-keys
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# RisingOS Stuff
+# chipset flag enclose var with "" if more than one
+# friendly tip: builders can use init_xxx.cpp as workaround for spacing
+# e.g. property_override("ro.rising.chipset", "Snapdragon 870 5G");
+RISING_CHIPSET := "Snapdragon® 888"
+
+# Aperture Camera (default: not defined - skipped by the compiler)
+TARGET_BUILD_APERTURE_CAMERA := false
+
+# disable/enable blur support, default is false
+TARGET_ENABLE_BLUR := true
+
+# Spoof build description/fingerprint as pixel device
+TARGET_USE_PIXEL_FINGERPRINT := false
+
+# GMS build flags
+WITH_GMS := true
+
+# Wether to use google (true) or AOSP (false) telephony package bundle. (defaults: false for gms core, true for pixel builds)
+TARGET_USE_GOOGLE_TELEPHONY := true
