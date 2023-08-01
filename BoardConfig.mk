@@ -33,6 +33,9 @@ BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(BOOT_KERNEL_MODULES)
 # Partitions
 BOARD_DTBOIMG_PARTITION_SIZE := 25165824
 
+# Properties
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
+
 # Vibrator
 SOONG_CONFIG_xiaomiSm8350Vars_vibrator_use_effect_stream := true
 
