@@ -39,3 +39,6 @@ TARGET_QTI_VIBRATOR_USE_EFFECT_STREAM := true
 
 # Include proprietary files
 include vendor/xiaomi/haydn/BoardConfigVendor.mk
+
+# Inherit from proprietary files for Leica Camera
+-include vendor/xiaomi/haydn-miuicamera/products/board.mk
