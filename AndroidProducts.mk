@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_haydn.mk
+    $(LOCAL_DIR)/droidx_haydn.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_haydn-user \
-    lineage_haydn-userdebug \
-    lineage_haydn-eng
+    droidx_haydn-user \
+    droidx_haydn-userdebug \
+    droidx_haydn-eng
