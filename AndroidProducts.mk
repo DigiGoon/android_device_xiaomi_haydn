@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_haydn.mk
+    $(LOCAL_DIR)/halcyon_haydn.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_haydn-user \
-    spark_haydn-userdebug \
-    spark_haydn-eng
+    halcyon_haydn-user \
+    halcyon_haydn-userdebug \
+    halcyon_haydn-eng
