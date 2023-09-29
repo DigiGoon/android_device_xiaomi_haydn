@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_haydn.mk
+    $(LOCAL_DIR)/ancient_haydn.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_haydn-user \
-    lineage_haydn-userdebug \
-    lineage_haydn-eng
+    ancient_haydn-user \
+    ancient_haydn-userdebug \
+    ancient_haydn-eng
