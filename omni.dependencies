@@ -1,0 +1,83 @@
+[
+  {
+    "remote": "omnirom",
+    "repository": "android_device_qcom_caf-sepolicy",
+    "target_path": "device/qcom/sepolicy",
+    "revision": "android-13.0"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_device_qcom_sepolicy_vndr",
+    "target_path": "device/qcom/sepolicy_vndr",
+    "revision": "android-13.0"
+  },
+  {
+    "remote": "github",
+    "repository": "micky387/android_hardware_qcom_display",
+    "target_path": "hardware/qcom-caf/sm8350/display",
+    "override": "platform/hardware/qcom/display",
+    "revision": "android-13.0"
+  },
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_hardware_qcom_media",
+    "target_path": "hardware/qcom-caf/sm8350/media",
+    "revision": "lineage-19.1-caf-sm8350"
+  },
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_hardware_qcom_audio",
+    "target_path": "hardware/qcom-caf/sm8350/audio",
+    "override": "platform/hardware/qcom/audio",
+    "revision": "lineage-20.0-caf-sm8350"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_hardware_qcom_wlan",
+    "target_path": "hardware/qcom-caf/wlan",
+    "override": "platform/hardware/qcom/wlan",
+    "revision": "android-13.0"
+   },
+  {
+     "remote": "omnirom",
+     "repository": "android_vendor_codeaurora_telephony",
+     "target_path": "vendor/codeaurora/telephony",
+     "revision": "android-12.0"
+   },
+  {
+     "remote": "omnirom",
+     "repository": "android_vendor_qcom_opensource_fm-commonsys",
+     "target_path": "vendor/qcom/opensource/fm-commonsys",
+     "revision": "android-13.0"
+   },
+   {
+     "remote": "omnirom",
+     "repository": "android_vendor_qcom_opensource_interfaces",
+     "target_path": "vendor/qcom/opensource/interfaces",
+     "revision": "android-13.0"
+   },
+   {
+     "remote": "gitlab",
+     "repository": "android_vendor_qcom_opensource_display",
+     "target_path": "vendor/qcom/opensource/display",
+     "revision": "android-12.0"
+   },
+   {
+     "remote": "gitlab",
+     "repository": "android_vendor_qcom_opensource_display-commonsys",
+     "target_path": "vendor/qcom/opensource/commonsys/display_custom",
+     "revision": "android-12.0"
+   },
+   {
+     "remote": "gitlab",
+     "repository": "android_vendor_qcom_opensource_display-commonsys-intf",
+     "target_path": "vendor/qcom/opensource/commonsys-intf/display",
+     "revision": "android-12.0"
+   },
+   {
+    "remote": "gitlab",
+    "repository": "android_vendor_qcom_opensource_power",
+    "target_path": "vendor/qcom/opensource/power",
+    "revision": "android-13.0"
+  }
+]
