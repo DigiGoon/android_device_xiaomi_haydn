@@ -25,6 +25,34 @@ PRODUCT_PACKAGES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.face.sense_service.camera_id=1
 
+# Haptics
+PRODUCT_VENDOR_PROPERTIES += \
+    sys.haptic.motor=linear \
+    sys.haptic.infinitelevel=true \
+    sys.haptic.dynamiceffect=true \
+    sys.haptic.dynamiceffect.richtap=true \
+    sys.haptic.down.weak=0 \
+    sys.haptic.down.normal=2 \
+    sys.haptic.down.strong=5 \
+    sys.haptic.down=5,2 \
+    sys.haptic.tap.normal=3,2 \
+    sys.haptic.tap.light=5,2 \
+    sys.haptic.flick=5,2 \
+    sys.haptic.flick.light=7,2 \
+    sys.haptic.switch=9,2 \
+    sys.haptic.mesh.heavy=8,2 \
+    sys.haptic.mesh.normal=5,2 \
+    sys.haptic.mesh.light=5,1 \
+    sys.haptic.long.press=0,1 \
+    sys.haptic.popup.normal=6,2 \
+    sys.haptic.popup.light=6,1 \
+    sys.haptic.pickup=2,2 \
+    sys.haptic.scroll.edge=7,0 \
+    sys.haptic.trigger.drawer=2,0 \
+    sys.haptic.hold=4,0 \
+    sys.haptic.runin=13 \
+    sys.haptic.ignoreWhenCamera=true
+
 # Init
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init.haydn.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.haydn.rc
