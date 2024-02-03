@@ -19,7 +19,7 @@ TARGET_BOOTLOADER_BOARD_NAME := haydn
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/hidl/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/haydn_QGKI.config
+KERNEL_FRAGMENT_CONFIG := vendor/haydn_QGKI.config
 
 # Kernel modules
 BOARD_VENDOR_KERNEL_MODULES += \
