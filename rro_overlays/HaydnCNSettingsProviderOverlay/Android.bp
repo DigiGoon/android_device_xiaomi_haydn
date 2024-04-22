@@ -1,4 +1,4 @@
 runtime_resource_overlay {
     name: "HaydnCNSettingsProviderOverlay",
-    vendor: true
+    device_specific: true
 }
