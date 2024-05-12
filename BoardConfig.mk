@@ -10,7 +10,7 @@ DEVICE_PATH := device/xiaomi/haydn
 include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := haydn,haydnin
+TARGET_OTA_ASSERT_DEVICE := haydn|haydnin
 
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := haydn
