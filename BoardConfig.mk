@@ -29,6 +29,11 @@ BOARD_VENDOR_KERNEL_MODULES += \
     $(KERNEL_MODULES_OUT)/qcom-hv-haptics.ko \
     $(KERNEL_MODULES_OUT)/xiaomi_touch.ko
 
+BOARD_VENDOR_RAMDISK_KERNEL_MODULES += \
+    $(KERNEL_MODULES_OUT)/focaltech_touch.ko \
+    $(KERNEL_MODULES_OUT)/qcom-hv-haptics.ko \
+    $(KERNEL_MODULES_OUT)/xiaomi_touch.ko
+
 # Partitions
 BOARD_DTBOIMG_PARTITION_SIZE := 25165824
 
